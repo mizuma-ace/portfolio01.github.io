@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="音楽家 タイムライン">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Serif+JP:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Klee+One&family=Noto+Serif+JP:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>音楽家 タイムライン</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">CONCEPT</a></li>
+                <li><a href="./comporsers.html">COMPOSER</a></li>
+                <li><a href="./collection.html">COLLECTION</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">SOCIAL</a>
+                    <ul class="social">
+                        <li><a href="https://www.X.com/BravoClassic/?locale=ja_JP" target="_blank">X</a>
+                        </li>
+                        <li><a href="https://www.instagram.com/bravoclassic/" target="_blank">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="gradation" id="backbutton">
+        <main>
+            <div>
+                <p class="backbutton">
+                    <a href="#backbutton">
+                        TOPに戻る
+                    </a>
+                </p>
+            </div>
+            <div class="mainInner">
+                <div class="title">
+                    <h1>- お問い合わせ -</h1>
+                </div>
+                <div class="tab">
+                    <h2 class="active" data-tab="contact">お問い合わせ</h2>
+                    <h2 data-tab="reservation">ご来店予約</h2>
+                </div>
+                <div class="content active" id="contact">
+                    <p class="import"><span>*</span>は入力＊事項です</p>
+                    <ul class="toiawase">
+                        <li>
+                            <label for="name">お名前
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="name" name="name" placeholder="滝廉太郎">
+                        </li>
+                        <li>
+                            <label for="name">フリガナ
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="name1" name="name" placeholder="タキレンタロウ">
+                        </li>
+                        <li>
+                            <label for="adress">ご住所
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="adress" name="adress" placeholder="日本">
+                        </li>
+                        <li>
+                            <label for="tell">電話番号
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="tell" name="tell" placeholder="090-xxx-xxxx">
+                        </li>
+                        <li>
+                            <label for="email">メールアドレス
+                                <span>＊</span>
+                            </label>
+                            <input type="email" id="email" name="email" placeholder="ring@gmail.com">
+                        </li>
+                        <li>
+                            <label for="email1">メールアドレス確認
+                                <span>＊</span>
+                            </label>
+                            <input type="email" id="email1" name="email11" placeholder="ring@gmail.com">
+                        </li>
+                        <li>
+                            <label for="textarea">お問い合わせ内容
+                                <span>＊</span>
+                            </label>
+                            <textarea name="textarea" id="textarea" placeholder="お問い合せ内容"></textarea>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content" id="reservation">
+                    <p class="import"><span>*</span>は入力＊事項です</p>
+                    <ul class="shop">
+                        <li>
+                            <span>＊</span>
+                            <select name="shop" id="shop">
+                                <option value="">ご来店希望店舗</option>
+                                <option value="tokyo">東京渋谷店</option>
+                                <option value="aichi">愛知名古屋店</option>
+                                <option value="osaka">大阪梅田店</option>
+                                <option value="fukuoka">福岡博多店</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="visit1">第１ご来店希望日
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="visit1" name="visit">
+                        </li>
+                        <li>
+                            <span>＊</span>
+                            <select name="time" id="time">
+                                <option value="">ご来店希望日時</option>
+                                <option value="tokyo">9:00~</option>
+                                <option value="tokyo">11:00~</option>
+                                <option value="aichi">13:00~</option>
+                                <option value="osaka">15:00~</option>
+                                <option value="fukuoka">17:00~</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="visit2">第2ご来店希望日
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="visit2" name="visit">
+                        </li>
+                        <li>
+                            <span>＊</span>
+                            <select name="time" id="time2">
+                                <option value="">ご来店希望日時</option>
+                                <option value="tokyo">9:00~</option>
+                                <option value="tokyo">11:00~</option>
+                                <option value="aichi">13:00~</option>
+                                <option value="osaka">15:00~</option>
+                                <option value="fukuoka">17:00~</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="name2">お名前
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="name2" name="name2" placeholder="滝廉太郎">
+                        </li>
+                        <li>
+                            <label for="name3">フリガナ
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="name3" name="name3" placeholder="タキレンタロウ">
+                        </li>
+                        <li>
+                            <label for="adress2">ご住所
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="adress2" name="adress2" placeholder="日本">
+                        </li>
+                        <li>
+                            <label for="tell2">電話番号
+                                <span>＊</span>
+                            </label>
+                            <input type="text" id="tell2" name="tell2" placeholder="090-xxx-xxxx">
+                        </li>
+                        <li>
+                            <label for="email2">メールアドレス
+                                <span>＊</span>
+                            </label>
+                            <input type="email" id="email2" name="email2" placeholder="ring@gmail.com">
+                        </li>
+                        <li>
+                            <label for="email3">メールアドレス確認
+                                <span>＊</span>
+                            </label>
+                            <input type="email" id="email3" name="email3" placeholder="ring@gmail.com">
+                        </li>
+                        <li>
+                            <label for="textarea2">備考
+                            </label>
+                            <textarea name="textarea" id="textarea2" placeholder="お問い合せ内容"></textarea>
+                        </li>
+                    </ul>
+                </div>
+                <div class="send">
+                    <button>送信する</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">CONCEPT</a></li>
+                    <li><a href="./comporsers.html">COMPOSER</a></li>
+                    <li><a href="./collection.html">COLLECTION</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="detailfooter">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="https://www.X.com/BravoClassic/?locale=ja_JP" target="_blank">X</a></li>
+                    <li><a href="https://www.instagram.com/bravoclassic/" target="_blank">Instagram</a></li>
+                </ul>
+            </div>
+            <span>&copy;The Musical Journeys of Four Great Masters</span>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>

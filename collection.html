@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="音楽家 タイムライン">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/collection.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Klee+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Klee+One&family=Noto+Serif+JP:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Klee+One&family=Noto+Serif+JP:wght@200..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>音楽家 タイムライン</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">CONCEPT</a></li>
+                <li><a href="./comporsers.html">COMPOSER</a></li>
+                <li><a href="./collection.html">COLLECTION</a></li>
+                <li><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="right">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li>SOCIAL
+                    <ul class="social">
+                        <li><a href="#">X</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="gradation">
+        <main>
+            <div class="top">
+                <div class="title">
+                    <h1 id="backbutton">RING COLLECTION</h1>
+                    <span>Memories - Weaving Our Feelings into Sound</span>
+                </div>
+            </div>
+            <div class="comporser">
+                <div class="comporserInner">
+                    <ul class="list">
+                        <li class="comporserContent active" data-tab="mozart">
+                            <a href="#namecontent" class="kao">
+                                <img src="./img/Mozartーkao.png" alt="Mozart">
+                            </a>
+                            <ul class="playlist">
+                                <li>
+                                    <a href="#Dialogo">Dialogo</a>
+                                </li>
+                                <li>
+                                    <a href="#Giocoso">Giocoso</a>
+                                </li>
+                                <li>
+                                    <a href="#Agitato">Agitato</a>
+                                </li>
+                                <li>
+                                    <a href="#Maestoso">Maestoso</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="comporserContent" data-tab="beethoven">
+                            <a href="#namecontent" class="kao">
+                                <img src="./img/Beethoven-kao.png" alt="Beethoven">
+                            </a>
+                            <ul class="playlist">
+                                <li>
+                                    <a href="#Sotto-voce">Sotto voce</a>
+                                </li>
+                                <li>
+                                    <a href="#Grazioso">Grazioso</a>
+                                </li>
+                                <li>
+                                    <a href="#Idillico">Idillico</a>
+                                </li>
+                                <li>
+                                    <a href="#Cantabile">Cantabile</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="comporserContent" data-tab="chopin">
+                            <a href="#namecontent" class="kao">
+                                <img src="./img/chopin-kao.png" alt="Chopin">
+                            </a>
+                            <ul class="playlist">
+                                <li>
+                                    <a href="#Legato">Legato</a>
+                                </li>
+                                <li>
+                                    <a href="#Sospirando">Sospirando</a>
+                                </li>
+                                <li>
+                                    <a href="#Dolcissimo">Dolcissimo</a>
+                                </li>
+                                <li>
+                                    <a href="#Appassionato">Appassionato</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="comporserContent" data-tab="tchaikovsky">
+                            <a href="#namecontent" class="kao">
+                                <img src="./img/Tchaikovsky-kao.png" alt="Tchaikovsky">
+                            </a>
+                            <ul class="playlist">
+                                <li>
+                                    <a href="#Leggiero">Leggiero</a>
+                                </li>
+                                <li>
+                                    <a href="#Gioioso">Gioioso</a>
+                                </li>
+                                <li>
+                                    <a href="#Appassionamento">Appassionato</a>
+                                </li>
+                                <li>
+                                    <a href="#Con-fuoco">Con fuoco</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="backbutton">
+                        <a href="#backbutton">
+                            TOPに戻る
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="name" id="namecontent">
+                <h2>- Mozart -</h2>
+            </div>
+            <div class="collectionContent">
+                <ul class="mozart commun active" id="mozart">
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Dialogo" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Dialogo</h2>
+                            <span class="kyoku">Sonata for Two Pianos in D Major, K. 448/375a</span>
+                            <h3>"互いの耳を澄まし、<br>対話するように寄り添う二人のための音楽"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>168,560
+                                    <span class="seibetu">male</span>196,350<span class="tax">+tax</span>
+                                </dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Giocoso" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Giocoso</h2>
+                            <span class="kyoku">La folle journée, ou le mariage de Figaro</span>
+                            <h3>"笑いと祝福に満ちた日常のなかで、<br>愛を選び続ける喜びを描いた物語"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Agitato" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Agitato</h2>
+                            <span class="kyoku">Symphony No. 40 in G minor, K. 550</span>
+                            <h3>"揺れる心や影のある感情までも抱きしめる、<br>人間らしい愛のかたち"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>158,980
+                                    <span class="seibetu">male</span>185,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Maestoso" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Maestoso</h2>
+                            <span class="kyoku">Symphony No. 41 in C major, K. 551</span>
+                            <h3>"すべてを超えて調和へと昇華する、<br>永遠を思わせる壮大な愛"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>185,390
+                                    <span class="seibetu">male</span>205,890<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="Beethoven commun" id="beethoven">
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Sotto-voce" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Sotto voce</h2>
+                            <span class="kyoku">Sonata for Two Pianos in D Major, K. 448/375a</span>
+                            <h3>"互いの耳を澄まし、<br>対話するように寄り添う二人のための音楽"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Grazioso" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Grazioso</h2>
+                            <span class="kyoku">La folle journée, ou le mariage de Figaro</span>
+                            <h3>"笑いと祝福に満ちた日常のなかで、<br>愛を選び続ける喜びを描いた物語"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span>
+                                </dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Idillico" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Idillico</h2>
+                            <span class="kyoku">Symphony No. 40 in G minor, K. 550</span>
+                            <h3>"揺れる心や影のある感情までも抱きしめる、<br>人間らしい愛のかたち"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                                <img id="Cantabile" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Cantabile</h2>
+                            <span class="kyoku">Symphony No. 41 in C major, K. 551</span>
+                            <h3>"すべてを超えて調和へと昇華する、<br>永遠を思わせる壮大な愛"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="Chopin commun" id="chopin">
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Legato" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Legato</h2>
+                            <span class="kyoku">Sonata for Two Pianos in D Major, K. 448/375a</span>
+                            <h3>"互いの耳を澄まし、<br>対話するように寄り添う二人のための音楽"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>168,560
+                                    <span class="seibetu">male</span>196,350<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Sospirando" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Sospirando</h2>
+                            <span class="kyoku">La folle journée, ou le mariage de Figaro</span>
+                            <h3>"笑いと祝福に満ちた日常のなかで、<br>愛を選び続ける喜びを描いた物語"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./img/B_gekkou-kiritori.png">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Dolcissimo" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Dolcissimo</h2>
+                            <span class="kyoku">Symphony No. 40 in G minor, K. 550</span>
+                            <h3>"揺れる心や影のある感情までも抱きしめる、<br>人間らしい愛のかたち"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>158,980
+                                    <span class="seibetu">male</span>185,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Animato" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Animato</h2>
+                            <span class="kyoku">Symphony No. 41 in C major, K. 551</span>
+                            <h3>"すべてを超えて調和へと昇華する、<br>永遠を思わせる壮大な愛"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>185,390
+                                    <span class="seibetu">male</span>205,890<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="Tchaikovsky commun" id="tchaikovsky">
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Leggiero" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Leggiero</h2>
+                            <span class="kyoku">Le lac des cygnes</span>
+                            <h3>"互いの耳を澄まし、<br>対話するように寄り添う二人のための音楽"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>168,560
+                                    <span class="seibetu">male</span>196,350<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Gioioso" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Gioioso</h2>
+                            <span class="kyoku">La folle journée, ou le mariage de Figaro</span>
+                            <h3>"笑いと祝福に満ちた日常のなかで、<br>愛を選び続ける喜びを描いた物語"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>148,390
+                                    <span class="seibetu">male</span>171,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Appassionamento" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Appassio</h2>
+                            <span class="kyoku">Fantasy Overture "Romeo and Juliet"</span>
+                            <h3>"揺れる心や影のある感情までも抱きしめる、<br>人間らしい愛のかたち"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>158,980
+                                    <span class="seibetu">male</span>185,490<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                    <li class="communInner">
+                        <div class="hidari">
+                            <img id="Con-fuoco" src="./img/B_gekkou-kiritori.png" alt="ring1">
+                        </div>
+                        <div class="migi">
+                            <h2>Con fuoco</h2>
+                            <span class="kyoku">Piano Concerto No. 1 in B-flat minor, Op. 23</span>
+                            <h3>"すべてを超えて調和へと昇華する、<br>永遠を思わせる壮大な愛"</h3>
+                            <dl>
+                                <dt>素材</dt>
+                                <dd>プラチナ、ゴールド、チタン<span class="select">(３種類からお選びいただけます)</span></dd>
+                                <dt>価格</dt>
+                                <dd><span class="seibetu">female</span>185,390
+                                    <span class="seibetu">male</span>205,890<span class="tax">+tax</span></dd>
+                            </dl>
+                            <div class="sankou">
+                                <div class="back">
+                                    <img src="./img/B_gekkou-kiritori.png" alt="B_gekkou">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringtop.png " alt="top">
+                                </div>
+                                <div class="back">
+                                    <img src="./img/ringue.png" alt="ue">
+                                </div>
+                            </div>
+                            <p class="contact"><a href="./contact.html">お問い合わせ</a></p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">CONCEPT</a></li>
+                    <li><a href="./comporsers.html">COMPOSER</a></li>
+                    <li><a href="./collection.html">COLLECTION</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="detailfooter">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">X</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+            <span>&copy;The Musical Journeys of Four Great Masters</span>
+        </footer>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
